@@ -1,2 +1,6 @@
 {% comment %} <h3>Task :{{object}}</h3><!--burada view.py de context_name girmessen böyle cağırabilirsin--> {% endcomment %}
-<h3>task :{{task}}</h3>
+{% extends 'base/main.html' %}
+{% block content %}
+
+    <h3>task :{{task}}</h3>
+{% endblock content %}
